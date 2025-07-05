@@ -3,14 +3,51 @@
 <html>
 
 <head>
+	<title>job form</title>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+<form action="" method="POST">
+
+    <label for="name">*Name</label >
+	<input type="text" id="name" name="name" placeholder="Name" required><br> <br>
+	
+    <label for="email">*Email</label>
+	<input type="email" id="email" name="email" placeholder="Email" required> <br> <br>
+	
+    <label for="gender">Gender</label>
+	<input type="radio" id="gender" name="gender">Male
+	<input type="radio" id="gender" name="gender">Female <br> <br>
+
+	
+    <label for="laptop">Laptop Brands</label>
+	<select name="laptop" id="laptop">
+		<option value="" >--Please choose an option--</option>
+		<option value="Asus">Asus</option>
+		<option value="HP">HP</option>
+		<option value="Apple">Apple</option>
+	</select> <br> <br>
+	
+	
+
+	<label for="age">*Age</label>
+	<input type="number" name="age" id="age" required> <br> <br>
+	
+	<label for="dob">*Date of Birth</label>
+	<input type="date" name="date" id="dob" required> <br> <br>
+	
+	<label for="password">*Password</label>
+	<input type="password" name="password" id="password" required> <br> <br>
+	
+	<label for="portfolio">Portfolio</label>
+	<input type="url" name="url" id="portfolio"> <br> <br>
+	
+	<button type="submit">Submit Button</button>
+</form>
+	
 
 </body>
-
+	
 </html>
